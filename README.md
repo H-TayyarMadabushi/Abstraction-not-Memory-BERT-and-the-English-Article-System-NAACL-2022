@@ -3,7 +3,7 @@
 
 This repository contains code and data associated with the paper [Abstraction not Memory:  BERT  and the  English Article System](https://aclanthology.org/2022.naacl-main.67.pdf). 
 
-If you make use of this package, please  [cite]()  our work
+If you make use of this package, please  [cite](https://github.com/H-TayyarMadabushi/Abstraction-not-Memory-BERT-and-the-English-Article-System-NAACL-2022/blob/main/README.md#citation)  our work.
 
 ## Summary 
 Article prediction is a task that has long defied accurate linguistic description. As such, this task is ideally suited to evaluate models on their ability to emulate native-speaker intuition. To this end, we compare the performance of native English speakers and pre-trained models on the task of article prediction set up as a three way choice (a/an, the, zero). Our experiments with BERT show that BERT outperforms humans on this task across all articles. In particular, BERT is far superior to humans at detecting the zero article, possibly because we insert them using rules that the deep neural model can easily pick up. More interestingly, we find that BERT tends to agree more with annotators than with the corpus when inter-annotator agreement is high but switches to agreeing more with the corpus as inter-annotator agreement drops. We contend that this alignment with annotators, despite being trained on the corpus, suggests that **BERT is not memorising article use, but captures a high level generalisation of article use akin to human intuition.**
@@ -16,8 +16,8 @@ Please contact us at **[htm43@bath.ac.uk](mailto:htm43@bath.ac.uk)** for a copy 
 
 
 | ID | Question | TrueLabel | ModelPrediction | Person1 | Person2 | Person3 | Person4 | Person5 |
-|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
-|1|Hun Sen sold out to the Vietnamese and is now selling out to Ø Thai businessmen as well, it says. Only _____ Khmer Rouge will fight to preserve Cambodia for ø Cambodians. It is actively supported by a small part of the population and tacitly tolerated by many more, out of either fear or a simple desire not to be involved in a political battle.|the|the|the|the|null|null|the|
+| -- | --       | --        | --              | --      | --      | --      | --      | --      |
+| 1 | Hun Sen sold out to the Vietnamese and is now selling out to Ø Thai businessmen as well, it says. Only _____ Khmer Rouge will fight to preserve Cambodia for ø Cambodians. It is actively supported by a small part of the population and tacitly tolerated by many more, out of either fear or a simple desire not to be involved in a political battle.|the|the|the|the|null|null|the|
 |2|In Paris, its diplomats proved to be the most methodical, hardest working and best co - ordinated of all the Cambodians. _____ Coalition Government of Democratic Kampuchea (CGDK), made up of the Khmer Rouge, the Sihanoukists and the KPNLF, is recognised by the United Nations. It has Ø nine permanent diplomatic missions abroad."|the|the|the|the|the|a|the|
 |3|Therefore we cannot return to the politics of 1975 to 1978,’ said the Khmer Rouge leader Khieu Samphan, in Paris. We need _____ liberal economy and a liberal democracy. This is the basis for Ø national unity."|a|a|a|a|a|a|a|
 
